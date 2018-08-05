@@ -1,31 +1,37 @@
+/*Adds some standard code to apply to all elements.*/
 html{
   background-color: black;
   font-family: verdana;
   text-align:center;
 }
 
+/*Alters h1 headings*/
 h1{
   font-weight: normal;
   font-size: 50px;
   color:white;
 }
 
+/*Alters h2 headings*/
 h2{
   font-weight: 300;
   font-size: 42px;
   color:white;
 }
 
+/*Alters h4 headings*/
 h4{
   color:aquamarine;
   font-size:16px;
 }
 
+/*Alters p elements*/
 p{
   font-size: 21px;
   color: gray;
 }
 
+/*Uses the copyright id to overwrite the text alignment.*/
 #copyright{
   text-align:right;
 }
